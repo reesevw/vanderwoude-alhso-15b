@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item">
+        <a href="home.html"><b>Home</b></a>
+      </div>
+      <div class="menu-item">
+        <a href="home.html"><b>Products & Services</b></a>
+      </div>
+      <div class="menu-item">
+        <a href="contactus.html"><b>Contact Us</b></a>
+      </div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome to Chow Chow Co.</h2>
+        <p>
+          <br />
+          Here at Chow Chow Co. we bake and sell all kinds of sweet treats. You
+          can choose to purchase items individually or in bulk!
+        </p>
+        <p>
+          <br />
+          We offer many different sweets, treats, and chocolatey items. Some of
+          our hand crafted treats include chocolate, brownies, cookies,
+          macarons, cupcakes, and our famous puppy chow!
+        </p>
+        <p>
+          <br />
+          If you are interested in ordering any of these sweet treats, click on
+          the Contact Us bar above and you can place your order.
+        </p>
+      </div>
+
+      <div class="sidebar-two">
+        <img
+          src="https://cdn.glitch.com/d8acb209-1152-4c03-9ab7-a8d4c7f17961%2FChow%20Chow%20Co..png?v=1606516479377"
+          alt="Chow Chow Co."
+        />
+        <ul>
+          <b>
+            <li>Chocolate</li>
+            <li>Puppy Chow</li>
+            <li>Much More!</li>
+          </b>
+        </ul>
+      </div>
+    </div>
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>Special Offer 1</h4>
+        <p>
+          <br />
+          25% off Puppy Chow Now THRU Christmas!
+          <a href="a" class="btn">Learn More</a>
+        </p>
+      </div>
+
+      <div class="call-out">
+        <h4>Special Offer 2</h4>
+        <p>
+          <br />
+          Buy one get one FREE Cookie Bundle!
+          <a href="a" class="btn">Learn More</a>
+        </p>
+      </div>
+
+      <div style="text-align:center;">
+        <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+      </div>
+
+      <script>
+        function hideAds() {
+          var x = document.getElementById("specialoffers");
+          var y = document.getElementById("hidebutton");
+          x.style.display = "none";
+          y.style.display = "none";
+        }
+      </script>
+    </div>
+  </body>
+</html>
